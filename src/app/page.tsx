@@ -1,3 +1,11 @@
+import Card from '../components/Card';
+
 export default function Page() {
-    return <h1>Hello, Next.js!</h1>
+    return (
+        <div className="flex">
+            <Card
+                body="this is the body"
+            />
+        </div>
+    )
   }
