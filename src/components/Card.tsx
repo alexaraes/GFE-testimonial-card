@@ -6,9 +6,9 @@ interface CardProps {
 
 const Card = ({ body }: CardProps) => {
     return (
-        <div className="flex">
-            This is my card.
-            {body}
+        <div className="flex flex-col">
+            <div>This is my card.</div>
+            <div>{body}</div>
         </div>
     );
 }
