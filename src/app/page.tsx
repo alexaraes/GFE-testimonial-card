@@ -3,7 +3,7 @@ import Card from '../components/Card';
 const data = {
     name: "Sarah Dole",
     username: "sarahdole",
-    avatar: "profile-thumbnail.png",
+    avatar: "/GFE-testimonial-card/profile-thumbnail.png",
     body: "I've been searching for high quality abstract images for my design projects, and I'm thrilled to have found this platform. The variety and depth of creativity are astounding!"
   }
 
